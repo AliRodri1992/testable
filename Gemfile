@@ -7,7 +7,6 @@ ruby '3.1.0'
 
 gem 'rails', '~> 7.0.3', '>= 7.0.3.1'
 gem 'sprockets-rails'
-gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 gem 'importmap-rails'
 gem 'turbo-rails'
@@ -18,6 +17,7 @@ gem "kredis"
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'bootsnap', require: false
 gem "sassc-rails"
+gem 'sqlite3'
 gem "image_processing", "~> 1.2"
 
 group :development, :test do
@@ -27,6 +27,9 @@ group :development, :test do
   gem 'brakeman'
   gem 'bundler-audit'
   gem 'ruby_audit'
+
+  # Database
+  gem 'pg', '~> 1.1'
 
   # Linting
   gem 'rubocop'
