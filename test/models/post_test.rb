@@ -15,9 +15,4 @@ class PostTest < ActiveSupport::TestCase
     post = Post.new(title: 'Test')
     assert post.save, 'Idk words go here'
   end
-
-  test 'should have views as integer' do
-    post = Post.new(title: 'Test 2', views: 'test')
-    assert_not post.save, 'Saved the post with a string for views'
-  end
 end

@@ -16,7 +16,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_05_203355) do
     t.text "body"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "views"
+    t.integer "views", default: 0
   end
 
 end
