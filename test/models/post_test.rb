@@ -13,6 +13,6 @@ class PostTest < ActiveSupport::TestCase
 
   test 'should save post whit title' do
     post = Post.new(title: 'Test')
-    assert post.save, 'Idk work go here'
+    assert post.save, 'Idk words go here'
   end
 end
