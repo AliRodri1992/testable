@@ -32,8 +32,8 @@ group :development, :test do
   gem 'pg', '~> 1.1'
 
   # Linting
-  gem 'rubocop'
-  gem 'rubocop-rails'
+  gem "rubocop", "~> 1.36"
+  gem "rubocop-rails", "~> 2.15"
 end
 
 group :development do

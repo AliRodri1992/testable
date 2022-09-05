@@ -281,8 +281,8 @@ DEPENDENCIES
   rack-mini-profiler
   rails (~> 7.0.3, >= 7.0.3.1)
   redis (~> 4.0)
-  rubocop
-  rubocop-rails
+  rubocop (~> 1.36)
+  rubocop-rails (~> 2.15)
   ruby_audit
   sassc-rails
   selenium-webdriver
